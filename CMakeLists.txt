@@ -25,3 +25,4 @@ add_executable(test test/test.cpp)
 target_link_libraries(test PRIVATE benchmark::benchmark)
 
 add_subdirectory(histograms)
+add_subdirectory(benchmark)
